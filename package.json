@@ -21,6 +21,9 @@
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
+  "reactSnap": {
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
